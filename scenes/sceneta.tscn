@@ -1,4 +1,4 @@
-[gd_scene load_steps=60 format=2]
+[gd_scene load_steps=61 format=2]
 
 [ext_resource path="res://sceneta.gd" type="Script" id=1]
 [ext_resource path="res://SandyTileset.tres" type="TileSet" id=2]
@@ -9,32 +9,32 @@
 [ext_resource path="res://Sprite.gd" type="Script" id=7]
 [ext_resource path="res://assets/hud/hudstempty.png" type="Texture" id=8]
 [ext_resource path="res://stamina.gd" type="Script" id=9]
-[ext_resource path="res://assets/savtest/savatak6.png" type="Texture" id=10]
-[ext_resource path="res://assets/savtest/savatak7.png" type="Texture" id=11]
-[ext_resource path="res://assets/savtest/savatak8.png" type="Texture" id=12]
-[ext_resource path="res://assets/savtest/savatak9.png" type="Texture" id=13]
-[ext_resource path="res://assets/savtest/savatak10.png" type="Texture" id=14]
-[ext_resource path="res://assets/Savu/Savurun1.png" type="Texture" id=15]
-[ext_resource path="res://assets/Savu/Savurun2.png" type="Texture" id=16]
-[ext_resource path="res://assets/Savu/Savurun3.png" type="Texture" id=17]
-[ext_resource path="res://assets/Savu/Savurun4.png" type="Texture" id=18]
-[ext_resource path="res://assets/Savu/Savurun6.png" type="Texture" id=19]
-[ext_resource path="res://assets/Savu/Savurun7.png" type="Texture" id=20]
-[ext_resource path="res://assets/Savu/Savurun8.png" type="Texture" id=21]
-[ext_resource path="res://assets/Savu/Savurun9.png" type="Texture" id=22]
-[ext_resource path="res://assets/savtest/Savatak1.png" type="Texture" id=23]
-[ext_resource path="res://assets/savtest/Savatak2.png" type="Texture" id=24]
-[ext_resource path="res://assets/savtest/savatak3.png" type="Texture" id=25]
-[ext_resource path="res://assets/savtest/savatak4.png" type="Texture" id=26]
-[ext_resource path="res://assets/savtest/savatak5.png" type="Texture" id=27]
-[ext_resource path="res://assets/Savu/savuhit.png" type="Texture" id=28]
-[ext_resource path="res://assets/Savu/savuidle1.png" type="Texture" id=29]
-[ext_resource path="res://assets/Savu/savuidle2.png" type="Texture" id=30]
-[ext_resource path="res://assets/Savu/savuidle3.png" type="Texture" id=31]
-[ext_resource path="res://assets/Savu/savuidle4.png" type="Texture" id=32]
-[ext_resource path="res://assets/Savu/Savujump1.png" type="Texture" id=33]
-[ext_resource path="res://assets/Savu/savpary.png" type="Texture" id=34]
-[ext_resource path="res://assets/Savu/Savujump2.png" type="Texture" id=35]
+[ext_resource path="res://assets/Savu/Savurun1.png" type="Texture" id=10]
+[ext_resource path="res://assets/Savu/Savurun2.png" type="Texture" id=11]
+[ext_resource path="res://assets/Savu/Savurun3.png" type="Texture" id=12]
+[ext_resource path="res://assets/Savu/Savurun4.png" type="Texture" id=13]
+[ext_resource path="res://assets/Savu/Savurun6.png" type="Texture" id=14]
+[ext_resource path="res://assets/Savu/Savurun7.png" type="Texture" id=15]
+[ext_resource path="res://assets/Savu/Savurun8.png" type="Texture" id=16]
+[ext_resource path="res://assets/Savu/Savurun9.png" type="Texture" id=17]
+[ext_resource path="res://assets/savtest/Savatak1.png" type="Texture" id=18]
+[ext_resource path="res://assets/savtest/Savatak2.png" type="Texture" id=19]
+[ext_resource path="res://assets/savtest/savatak3.png" type="Texture" id=20]
+[ext_resource path="res://assets/savtest/savatak4.png" type="Texture" id=21]
+[ext_resource path="res://assets/savtest/savatak5.png" type="Texture" id=22]
+[ext_resource path="res://assets/Savu/savuhit.png" type="Texture" id=23]
+[ext_resource path="res://assets/Savu/savuidle1.png" type="Texture" id=24]
+[ext_resource path="res://assets/Savu/savuidle2.png" type="Texture" id=25]
+[ext_resource path="res://assets/Savu/savuidle3.png" type="Texture" id=26]
+[ext_resource path="res://assets/Savu/savuidle4.png" type="Texture" id=27]
+[ext_resource path="res://assets/Savu/Savujump1.png" type="Texture" id=28]
+[ext_resource path="res://assets/Savu/Savujump2.png" type="Texture" id=29]
+[ext_resource path="res://assets/Savu/savpary.png" type="Texture" id=30]
+[ext_resource path="res://assets/savtest/savatak6.png" type="Texture" id=31]
+[ext_resource path="res://assets/savtest/savatak7.png" type="Texture" id=32]
+[ext_resource path="res://assets/savtest/savatak8.png" type="Texture" id=33]
+[ext_resource path="res://assets/savtest/savatak9.png" type="Texture" id=34]
+[ext_resource path="res://assets/savtest/savatak10.png" type="Texture" id=35]
 [ext_resource path="res://AnimatedSprite.gd" type="Script" id=36]
 [ext_resource path="res://Area2D.gd" type="Script" id=37]
 [ext_resource path="res://skeleton.gd" type="Script" id=38]
@@ -52,6 +52,7 @@
 [ext_resource path="res://assets/skelly/skelhit.png" type="Texture" id=50]
 [ext_resource path="res://scenes/sajeata.gd" type="Script" id=51]
 [ext_resource path="res://assets/pots and projectiles/sageata.png" type="Texture" id=52]
+[ext_resource path="res://assets/icon.png" type="Texture" id=53]
 
 [sub_resource type="RectangleShape2D" id=1]
 
@@ -66,45 +67,45 @@ extents = Vector2( 44.2269, 33.3397 )
 [sub_resource type="SpriteFrames" id=3]
 
 animations = [ {
-"frames": [ ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ) ],
-"loop": true,
-"name": "savuattack2",
-"speed": 15.0
-}, {
-"frames": [ ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ) ],
+"frames": [ ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ) ],
 "loop": true,
 "name": "savurun",
 "speed": 9.0
 }, {
-"frames": [ ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ) ],
+"frames": [ ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ) ],
 "loop": true,
 "name": "savuattack1",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 28 ) ],
+"frames": [ ExtResource( 23 ) ],
 "loop": true,
 "name": "savuhit",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ) ],
+"frames": [ ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ) ],
 "loop": true,
 "name": "savuidle",
 "speed": 1.8
 }, {
-"frames": [ ExtResource( 33 ) ],
+"frames": [ ExtResource( 28 ) ],
 "loop": true,
 "name": "savujump",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 34 ) ],
+"frames": [ ExtResource( 29 ) ],
+"loop": true,
+"name": "savufall",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 30 ) ],
 "loop": true,
 "name": "savparry",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 35 ) ],
+"frames": [ ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ) ],
 "loop": true,
-"name": "savufall",
-"speed": 5.0
+"name": "savuattack2",
+"speed": 15.0
 } ]
 _sections_unfolded = [ "Resource" ]
 
@@ -355,6 +356,14 @@ shape = SubResource( 7 )
 position = Vector2( -0.439484, 0.781097 )
 scale = Vector2( 0.313564, 0.613932 )
 texture = ExtResource( 52 )
+
+[node name="Savu2" type="Sprite" parent="." index="4"]
+
+position = Vector2( 627.053, 217.057 )
+scale = Vector2( 6.68678, 6.68678 )
+z_index = -1
+texture = ExtResource( 53 )
+_sections_unfolded = [ "Z Index" ]
 
 [connection signal="body_entered" from="Area2D" to="Savu" method="_on_Area2D_body_entered"]
 
