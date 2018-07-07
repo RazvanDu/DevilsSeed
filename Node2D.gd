@@ -4,15 +4,16 @@ extends Control
 # var a = 2
 # var b = "textvar"
 var red = Color(1, 0, 0)
-var green = Color(0, 01, 0)
-var length = 0
+var green = Color(0, 1, 0)
+var length
 
 func _draw():
-	#var img = ImageTexture.new()0
+	#var img = ImageTexture.new()
+	#img.load("hudhpfill")
 	#draw_texture(img,Vector2(100,100),Color(1,1,1,1))
-	length = get_tree().get_root().get_node("root/Savu").hp * 107 / 100
+	length = get_tree().get_root().get_node("root/player").hp * 107 / 100
 	draw_rect(Rect2(Vector2(-75,-4),Vector2(length,16)),red)
-	length = get_tree().get_root().get_node("root/Savu").stamina * 77 / 500
+	length = get_tree().get_root().get_node("root/player").stamina * 77 / 500
 	draw_rect(Rect2(Vector2(-80,30),Vector2(length,12)),green)
 	update()
 	pass
